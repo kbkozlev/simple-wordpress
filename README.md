@@ -32,7 +32,7 @@ curl -sSL https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads
 - Make sure your server is running a Debian-based system (e.g., Ubuntu).
 
 ## 📄 License
-This script is open-source. Feel free to modify and distribute it as needed.
+This script is open-source and under a [MIT License](LICENSE), feel free to modify and distribute it as needed.
 
 ## 🙌 Honorable Mentions
 This script is inspired by "ZacsTech" and his [YouTube video](https://www.youtube.com/watch?v=DLzEU4naGGI&ab_channel=ZacsTech) 
