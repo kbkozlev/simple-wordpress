@@ -10,10 +10,13 @@ This script provides a **simple and fast way to install WordPress** on your serv
 - Installs phpMyAdmin (uses the same credentials as the WordPress database).
 
 ## ⚙️ How To Run The Script
-You can run this script directly from GitHub using `curl`:
+You can run this script directly from GitHub using `curl` or `wget`:
 
 ```sh
 curl -sSL https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads/master/simple-wordpress.sh | bash
+```
+```sh
+wget -qO- https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads/master/simple-wordpress.sh | bash
 ```
 
 ## 📒 Important Information
