@@ -21,7 +21,7 @@ systemctl stop apache2
 systemctl stop mysql
 
 # Remove files
-rm -rf "$install_dir"
+rm -rf "$install_dir"/*
 
 # Remove database and user
 mysql -u root -e "DROP DATABASE IF EXISTS $db_name;"
