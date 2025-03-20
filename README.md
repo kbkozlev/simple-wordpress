@@ -2,7 +2,7 @@
 
 This script provides a **simple and fast way to install WordPress** on your server with just one command. It automatically sets up Apache, MySQL, PHP, phpMyAdmin, and WordPress with randomly generated credentials.
 
-## 📌 What This Script Does
+## 📒 What This Script Does
 - Installs and configures Apache, MySQL, PHP, and phpMyAdmin.
 - Downloads and sets up the latest WordPress version.
 - Creates a random WordPress database, user, and password.
@@ -19,7 +19,8 @@ curl -sSL https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads
 wget -qO- https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads/master/simple-wordpress.sh | bash
 ```
 
-## 📒 Important Information
+## 📌 Important Information
+- **When setting up phpMyAdmin do not provide a password, if you wish to use the WP DB Password**
 - **Save the credentials displayed at the end of the installation!**
 - The script will output the following:
   - MySQL root password
