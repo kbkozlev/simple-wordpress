@@ -19,6 +19,14 @@ curl -sSL https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads
 wget -qO- https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads/master/simple-wordpress.sh | bash
 ```
 
+## ⚙️ To Remove The Script
+```sh
+curl -sSL https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads/master/simple-wordpress-remove | bash
+```
+```sh
+wget -qO- https://raw.githubusercontent.com/kbkozlev/simple-wordpress/refs/heads/master/simple-wordpress-remove | bash
+```
+
 ## 📌 Important Information
 - **When setting up phpMyAdmin do not provide a password, if you wish to use the WP DB Password**
 - **Save the credentials displayed at the end of the installation!**
